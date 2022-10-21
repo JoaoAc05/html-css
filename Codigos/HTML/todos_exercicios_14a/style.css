@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(to right, #ffeae0, #ffd6c2);
+    font-size: 17px;
+}
+main {
+    background-color: white;
+    width: 800px; 
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow: 10px 10px 10px #d3b2a1a9; 
+    
+}
+h1 {
+    color: hsl(33, 100%, 27%);
+    background-image: linear-gradient(to right, #ffeae0, #fdf7f4);
+    text-align: center;
+    text-shadow: 1px 1px 3px #6b3b00a9;
+}
+h2 {
+    color: #477492;
+}
+

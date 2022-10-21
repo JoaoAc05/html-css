@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+        nav {
+            padding: 2px;
+            background-color: rgb(126, 126, 126);
+            box-shadow: 2px 2px 4px 1px #00000031;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: yellow;
+
+        }
+        main {
+            margin: 10px;
+            border: 2px solid black;
+            padding: 3px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(187, 187, 187);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>   
+    <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    </header>
+    <main> 
+        
+          <section id="assuntos">
+            o
+          </section> 
+          <section id="noticias">
+            <article>
+                <h2>Notícia Sobre ...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sunt enim mollitia recusandae animi quisquam explicabo earum eaque exercitationem, alias quos fugit odio facilis modi nostrum, assumenda, natus repellendus aspernatur?</p>
+                <aside>
+                    <p>Artigo escrito por João</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+          </section>
+    </main>
+    <footer> 
+            <p>Desenvolvido por João Alves</p>
+        </footer>
+</body>
+</html>

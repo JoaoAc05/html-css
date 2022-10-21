@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/html.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospedados Localmente</h1>
+    <hr>
+    <p>Este vídeo esta hospedado no meu própiro servidor</p>
+    <video src="midia/meu_video.webm" controls></video>
+    <hr>
+    <h3>Forma 2</h3>
+    <video controls poster="imagem/tumb.png">
+        <source src="midia/meu_video.webm" type="video/webm">
+        <source src="midia/meu_video.mkv" type="video/mkv">
+        <source src="midia/meu_video.mp4" type="video/mp4">
+        <source src="midia/meu_video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo </p>
+    </video>    
+    <p>Forma para compatibilidade de navegadores com 4 extensões 
+        <br>mp4, mkv, webm, ogv
+        <br><mark style="background-color: rgba(253, 169, 11, 0.521)">Com poster de inicio</mark>
+    </p>
+    <hr>
+    <h1>Hospedagem Externa</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7rXaroh2JF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br> Mesmo o vídeo estando como não listado ainda é possivel acessar atráves do caminho
+    <br> Vídeos não listados são acessiveis, apenas não são por busca do próprio youtube
+
+</body>
+</html>
