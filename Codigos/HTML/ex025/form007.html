@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulários</h1>
+    <form action="cadastro.php">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
+
+                <optgroup label="Centro Oeste">
+                <option value="GO">Goiás</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+
+                <optgroup label="Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+
+                <optgroup label="Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+            <p>Select, caixa de seleção sem alternativa de escrita <br>
+            ---------------------------------------------------
+            </p>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="DEV">Programador</option>
+                <option value="CONT">Contador</option>
+                <option value="PROF">Professor</option>
+                <option value="AST">Assistente Geral</option>
+            </datalist>
+            <p>
+                Input + Datalist, caixa de seleção com opção de escrita <br>
+                ---------------------------------------------------------
+            </p>
+        </p>
+
+        <p>
+            <label for="ims">Escreva Sua Mensagem:</label> <br>
+            <textarea name="msg" id="ims" cols="20" rows="10">
+                Textarea, caixa de mensagem
+            </textarea>
+        </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
